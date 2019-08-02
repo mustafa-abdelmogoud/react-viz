@@ -9,6 +9,7 @@ import MovieBox from "./MovieBox";
 import WantToBuy from "./WantToBy";
 import WillBuyTree from "./WillBuyTree";
 import Stocking from "./Stocking";
+import Sankey from "./SankeyChart";
 
 function App() {
   const [data, setData] = useState(null);
@@ -40,6 +41,8 @@ function App() {
       <WillBuyTree />
 
       <Stocking />
+
+      <Sankey />
     </div>
   );
 }
